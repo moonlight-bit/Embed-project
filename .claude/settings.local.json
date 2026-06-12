@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(rm *)",
+      "Bash(dpkg -l)",
+      "Bash(apt list *)",
+      "Bash(pip3 list *)",
+      "Bash(python3 *)",
+      "Bash(pip3 install *)",
+      "Bash(sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim)",
+      "Read(//usr/**)",
+      "Read(//usr/lib/**)",
+      "Bash(sudo -S apt-get install -y tesseract-ocr tesseract-ocr-chi-sim)",
+      "Bash(tesseract *)"
+    ]
+  }
+}
